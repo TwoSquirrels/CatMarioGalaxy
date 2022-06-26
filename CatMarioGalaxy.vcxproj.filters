@@ -138,10 +138,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="Src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Entity\Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -167,57 +170,6 @@
     <Image Include="App\engine\texture\box-shadow\256.png">
       <Filter>Resource Files\engine\texture\box-shadow</Filter>
     </Image>
-    <Image Include="App\example\particle.png">
-      <Filter>Resource Files\example</Filter>
-    </Image>
-    <Image Include="App\example\siv3d-kun.png">
-      <Filter>Resource Files\example</Filter>
-    </Image>
-    <Image Include="App\example\windmill.png">
-      <Filter>Resource Files\example</Filter>
-    </Image>
-    <Image Include="App\example\bay.jpg">
-      <Filter>Resource Files\example</Filter>
-    </Image>
-    <Image Include="App\example\gif\test.gif">
-      <Filter>Resource Files\example\gif</Filter>
-    </Image>
-    <Image Include="App\example\spritesheet\siv3d-kun-16.png">
-      <Filter>Resource Files\example\spritesheet</Filter>
-    </Image>
-    <Image Include="App\example\texture\earth.jpg">
-      <Filter>Resource Files\example\texture</Filter>
-    </Image>
-    <Image Include="App\example\texture\grass.jpg">
-      <Filter>Resource Files\example\texture</Filter>
-    </Image>
-    <Image Include="App\example\texture\ground.jpg">
-      <Filter>Resource Files\example\texture</Filter>
-    </Image>
-    <Image Include="App\example\texture\rock.jpg">
-      <Filter>Resource Files\example\texture</Filter>
-    </Image>
-    <Image Include="App\example\texture\uv.png">
-      <Filter>Resource Files\example\texture</Filter>
-    </Image>
-    <Image Include="App\example\texture\wood.jpg">
-      <Filter>Resource Files\example\texture</Filter>
-    </Image>
-    <Image Include="App\example\obj\bark.jpg">
-      <Filter>Resource Files\example\obj</Filter>
-    </Image>
-    <Image Include="App\example\obj\leaves.png">
-      <Filter>Resource Files\example\obj</Filter>
-    </Image>
-    <Image Include="App\example\obj\pine_leaves_red.png">
-      <Filter>Resource Files\example\obj</Filter>
-    </Image>
-    <Image Include="App\example\obj\siv3d-kun.png">
-      <Filter>Resource Files\example\obj</Filter>
-    </Image>
-    <Image Include="App\example\obj\siv3d-kun-eye.png">
-      <Filter>Resource Files\example\obj</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="App\Resource.rc">
@@ -233,45 +185,6 @@
     </Text>
     <Text Include="App\engine\soundfont\GMGSx.sf2.txt">
       <Filter>Resource Files\engine\soundfont</Filter>
-    </Text>
-    <Text Include="App\example\font\DotGothic16\OFL.txt">
-      <Filter>Resource Files\example\font\DotGothic16</Filter>
-    </Text>
-    <Text Include="App\example\font\RocknRoll\OFL.txt">
-      <Filter>Resource Files\example\font\RocknRoll</Filter>
-    </Text>
-    <Text Include="App\example\midi\test.txt">
-      <Filter>Resource Files\example\midi</Filter>
-    </Text>
-    <Text Include="App\example\spritesheet\siv3d-kun-16.txt">
-      <Filter>Resource Files\example\spritesheet</Filter>
-    </Text>
-    <Text Include="App\example\svg\README.txt">
-      <Filter>Resource Files\example\svg</Filter>
-    </Text>
-    <Text Include="App\example\texture\credit.txt">
-      <Filter>Resource Files\example\texture</Filter>
-    </Text>
-    <Text Include="App\example\video\river.txt">
-      <Filter>Resource Files\example\video</Filter>
-    </Text>
-    <Text Include="App\example\obj\credit.txt">
-      <Filter>Resource Files\example\obj</Filter>
-    </Text>
-    <Text Include="App\example\txt\jp.txt">
-      <Filter>Resource Files\example\txt</Filter>
-    </Text>
-    <Text Include="App\example\txt\kr.txt">
-      <Filter>Resource Files\example\txt</Filter>
-    </Text>
-    <Text Include="App\example\txt\sc.txt">
-      <Filter>Resource Files\example\txt</Filter>
-    </Text>
-    <Text Include="App\example\txt\en.txt">
-      <Filter>Resource Files\example\txt</Filter>
-    </Text>
-    <Text Include="App\example\LICENSE.txt">
-      <Filter>Resource Files\example</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -485,247 +398,7 @@
     <None Include="App\engine\soundfont\GMGSx.sf2.zstdcmp">
       <Filter>Resource Files\engine\soundfont</Filter>
     </None>
-    <None Include="App\example\font\DotGothic16\README.md">
-      <Filter>Resource Files\example\font\DotGothic16</Filter>
-    </None>
-    <None Include="App\example\font\DotGothic16\README-JP.md">
-      <Filter>Resource Files\example\font\DotGothic16</Filter>
-    </None>
-    <None Include="App\example\font\RocknRoll\README.md">
-      <Filter>Resource Files\example\font\RocknRoll</Filter>
-    </None>
-    <None Include="App\example\font\RocknRoll\README-JP.md">
-      <Filter>Resource Files\example\font\RocknRoll</Filter>
-    </None>
-    <None Include="App\example\geojson\countries.geojson">
-      <Filter>Resource Files\example\geojson</Filter>
-    </None>
-    <None Include="App\example\json\empty.json">
-      <Filter>Resource Files\example\json</Filter>
-    </None>
-    <None Include="App\example\json\invalid-blank.json">
-      <Filter>Resource Files\example\json</Filter>
-    </None>
-    <None Include="App\example\json\invalid-syntax.json">
-      <Filter>Resource Files\example\json</Filter>
-    </None>
-    <None Include="App\example\json\test.json">
-      <Filter>Resource Files\example\json</Filter>
-    </None>
-    <None Include="App\example\json\config.json">
-      <Filter>Resource Files\example\json</Filter>
-    </None>
-    <None Include="App\example\midi\test.mid">
-      <Filter>Resource Files\example\midi</Filter>
-    </None>
-    <None Include="App\example\svg\cat.svg">
-      <Filter>Resource Files\example\svg</Filter>
-    </None>
-    <None Include="App\example\svg\turtle.svg">
-      <Filter>Resource Files\example\svg</Filter>
-    </None>
-    <None Include="App\example\zip\zip_test.zip">
-      <Filter>Resource Files\example\zip</Filter>
-    </None>
     <None Include=".editorconfig" />
-    <None Include="App\example\obj\blacksmith.mtl">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\crystal1.mtl">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\crystal2.mtl">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\crystal3.mtl">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\mill.mtl">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\pine.mtl">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\siv3d-kun.mtl">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\tree.mtl">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\blacksmith.obj">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\crystal3.obj">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\crystal2.obj">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\crystal1.obj">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\mill.obj">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\pine.obj">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\siv3d-kun.obj">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\obj\tree.obj">
-      <Filter>Resource Files\example\obj</Filter>
-    </None>
-    <None Include="App\example\csv\config.csv">
-      <Filter>Resource Files\example\csv</Filter>
-    </None>
-    <None Include="App\example\ini\config.ini">
-      <Filter>Resource Files\example\ini</Filter>
-    </None>
-    <None Include="App\example\script\paint.as">
-      <Filter>Resource Files\example\script</Filter>
-    </None>
-    <None Include="App\example\script\piano.as">
-      <Filter>Resource Files\example\script</Filter>
-    </None>
-    <None Include="App\example\script\test.as">
-      <Filter>Resource Files\example\script</Filter>
-    </None>
-    <None Include="App\example\script\breakout.as">
-      <Filter>Resource Files\example\script</Filter>
-    </None>
-    <None Include="App\example\script\hello.as">
-      <Filter>Resource Files\example\script</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\game_of_life.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\grayscale.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\homography.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\homography.vert">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\multi_texture_blend.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\multi_texture_mask.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\poisson_disk.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\posterize.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\rgb_shift.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\rgb_to_bgr.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\soft_shape.vert">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\swirl.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\terrain_forward.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\terrain_forward.vert">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\terrain_normal.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\default2d.vert">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\default2d_shape.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\default2d_texture.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\default3d_forward.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\default3d_forward.vert">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\extract_bright_linear.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\forward_fog.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\glsl\forward_triplanar.frag">
-      <Filter>Resource Files\example\shader\glsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\default2d.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\default3d_forward.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\extract_bright_linear.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\forward_fog.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\forward_triplanar.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\game_of_life.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\grayscale.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\homography.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\multi_texture_blend.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\multi_texture_mask.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\poisson_disk.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\posterize.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\rgb_shift.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\rgb_to_bgr.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\soft_shape.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\swirl.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\terrain_forward.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\shader\hlsl\terrain_normal.hlsl">
-      <Filter>Resource Files\example\shader\hlsl</Filter>
-    </None>
-    <None Include="App\example\toml\config.toml">
-      <Filter>Resource Files\example\toml</Filter>
-    </None>
-    <None Include="App\example\toml\test.toml">
-      <Filter>Resource Files\example\toml</Filter>
-    </None>
     <None Include="App\engine\font\min\LICENSE">
       <Filter>Resource Files\engine\font\min</Filter>
     </None>
@@ -734,46 +407,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Media Include="App\example\test.mp3">
-      <Filter>Resource Files\example</Filter>
-    </Media>
-    <Media Include="App\example\video\river.mp4">
-      <Filter>Resource Files\example\video</Filter>
-    </Media>
-    <Media Include="App\example\shot.mp3">
-      <Filter>Resource Files\example</Filter>
-    </Media>
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="App\example\font\DotGothic16\DotGothic16-Regular.ttf">
-      <Filter>Resource Files\example\font\DotGothic16</Filter>
-    </Font>
-    <Font Include="App\example\font\RocknRoll\RocknRollOne-Regular.ttf">
-      <Filter>Resource Files\example\font\RocknRoll</Filter>
-    </Font>
-  </ItemGroup>
-  <ItemGroup>
-    <Xml Include="App\example\objdetect\haarcascade\face_anime.xml">
-      <Filter>Resource Files\example\objdetect\haarcascade</Filter>
-    </Xml>
-    <Xml Include="App\example\objdetect\haarcascade\frontal_catface.xml">
-      <Filter>Resource Files\example\objdetect\haarcascade</Filter>
-    </Xml>
-    <Xml Include="App\example\objdetect\haarcascade\frontal_face_alt2.xml">
-      <Filter>Resource Files\example\objdetect\haarcascade</Filter>
-    </Xml>
-    <Xml Include="App\example\objdetect\haarcascade\eye.xml">
-      <Filter>Resource Files\example\objdetect\haarcascade</Filter>
-    </Xml>
-    <Xml Include="App\example\xml\config.xml">
-      <Filter>Resource Files\example\xml</Filter>
-    </Xml>
-    <Xml Include="App\example\xml\test.xml">
-      <Filter>Resource Files\example\xml</Filter>
-    </Xml>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Entity\Entity.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
