@@ -1,4 +1,4 @@
-﻿#include "Entity.hpp"
+#include "Entity.hpp"
 
 Entity::Entity(Vec2 location, Vec2 velocity, Vec2 acceleration)
 	: location{ location }

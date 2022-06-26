@@ -1,0 +1,4 @@
+[submodule "Siv3DForWeb"]
+	path = Siv3DForWeb
+	url = https://github.com/nokotan/OpenSiv3DForWeb-VSCode
+	shallow = true
