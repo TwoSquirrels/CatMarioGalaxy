@@ -113,7 +113,6 @@ em++ $(echo *.o) -o "$build_dir/Dist/index.html"\
      -s USE_VORBIS=1\
      -s ALLOW_MEMORY_GROWTH=1\
      -s ERROR_ON_UNDEFINED_SYMBOLS=0\
-     -Wl,--allow-undefined\
      -s ASYNCIFY=1\
      -s ASYNCIFY_IGNORE_INDIRECT=1\
      -s ASYNCIFY_IMPORTS="['siv3dRequestAnimationFrame','siv3dOpenDialog','siv3dDecodeAudioFromFile','siv3dGetClipboardText']"\
